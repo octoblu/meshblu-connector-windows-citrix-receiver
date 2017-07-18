@@ -1,0 +1,30 @@
+{
+  "name": "meshblu-connector-windows-citrix-receiver",
+  "version": "1.0.0",
+  "author": "sqrtofsaturn <sqrtofsaturn@gmail.com>",
+  "main": "index.js",
+  "repository": "git@github.com:octoblu/meshblu-connector-windows-citrix-receiver.git",
+  "license": "MIT",
+  "bin": "command.js",
+  "scripts": {
+    "start": "node command.js"
+  },
+  "pkg": {
+    "assets": "ps1/*"
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-lodash-fp": "^2.1.3"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "debug": "^2.6.8",
+    "lodash": "^4.17.4",
+    "meshblu-config": "^8.0.1",
+    "meshblu-firehose-socket.io": "^4.0.2",
+    "meshblu-http": "^10.0.4",
+    "tmp": "^0.0.31"
+  }
+}
