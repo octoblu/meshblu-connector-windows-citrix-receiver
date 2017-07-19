@@ -1,6 +1,6 @@
 {
   "name": "meshblu-connector-windows-citrix-receiver",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "sqrtofsaturn <sqrtofsaturn@gmail.com>",
   "main": "index.js",
   "repository": "git@github.com:octoblu/meshblu-connector-windows-citrix-receiver.git",
@@ -12,7 +12,7 @@
     "package": "pkg -t node8-win-x64 ."
   },
   "pkg": {
-    "assets": "ps1/*"
+    "assets": "assets/*"
   },
   "devDependencies": {
     "eslint": "^4.2.0",
@@ -23,6 +23,7 @@
   "dependencies": {
     "async": "^2.5.0",
     "debug": "^2.6.8",
+    "edge": "^7.10.1",
     "lodash": "^4.17.4",
     "meshblu-config": "^8.0.1",
     "meshblu-firehose-socket.io": "^4.0.2",
