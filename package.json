@@ -1,6 +1,6 @@
 {
   "name": "meshblu-connector-windows-citrix-receiver",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "sqrtofsaturn <sqrtofsaturn@gmail.com>",
   "main": "index.js",
   "repository": "git@github.com:octoblu/meshblu-connector-windows-citrix-receiver.git",
@@ -8,6 +8,7 @@
   "bin": "command.js",
   "scripts": {
     "start": "node command.js",
+    "test": "exit 0",
     "package": "pkg -t node8-win-x64 ."
   },
   "pkg": {
