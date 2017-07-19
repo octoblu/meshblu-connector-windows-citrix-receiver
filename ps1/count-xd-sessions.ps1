@@ -16,6 +16,6 @@ $SessionsCount = $ICA.GetEnumNameCount($SessionsEnum)
 $ICA.CloseEnumHandle($EnumSessions) >$null 2>&1
 
 $obj = New-Object PSObject
-Add-Member -InputObject $obj -MemberType NoteProperty -Name sessionsCount -Value $SessionsCount
-#Add-Member -InputObject $obj -MemberType NoteProperty -Name sessionNames -Value $SessionNames
+Add-Member -InputObject $obj -MemberType NoteProperty -Name count -Value $SessionsCount
+#Add-Member -InputObject $obj -MemberType NoteProperty -Name names -Value $SessionNames
 Write-Host ($obj | ConvertTo-JSON)
