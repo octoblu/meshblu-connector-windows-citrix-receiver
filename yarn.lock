@@ -843,6 +843,10 @@ is-typedarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
 
+is-wsl@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/is-wsl/-/is-wsl-1.1.0.tgz#1f16e4aa22b04d1336b66188a66af3c600c3a66d"
+
 isarray@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
@@ -975,9 +979,9 @@ meshblu-firehose-socket.io@^4.0.2:
     socket.io-client "^1.7.2"
     srv-failover "^2.0.0"
 
-meshblu-http@^10.0.4:
-  version "10.0.4"
-  resolved "https://registry.yarnpkg.com/meshblu-http/-/meshblu-http-10.0.4.tgz#9d4c1072605768b4e1c1f610af882bb5b1854561"
+meshblu-http@^10.0.5:
+  version "10.0.5"
+  resolved "https://registry.yarnpkg.com/meshblu-http/-/meshblu-http-10.0.5.tgz#b26eb14ee87b573ef24e93f94952214ebe77fad7"
   dependencies:
     debug "^2.6.8"
     json-stable-stringify "^1.0.0"
@@ -1086,6 +1090,12 @@ onetime@^2.0.0:
   resolved "https://registry.yarnpkg.com/onetime/-/onetime-2.0.1.tgz#067428230fd67443b2794b22bba528b6867962d4"
   dependencies:
     mimic-fn "^1.0.0"
+
+opn@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/opn/-/opn-5.1.0.tgz#72ce2306a17dbea58ff1041853352b4a8fc77519"
+  dependencies:
+    is-wsl "^1.1.0"
 
 optionator@^0.8.2:
   version "0.8.2"
@@ -1417,6 +1427,18 @@ sshpk@^1.7.0:
     ecc-jsbn "~0.1.1"
     jsbn "~0.1.0"
     tweetnacl "~0.14.0"
+
+storefront-ica-generator@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/storefront-ica-generator/-/storefront-ica-generator-2.0.2.tgz#2ac895383d4f18453f7be4625c4c255cdd55d193"
+  dependencies:
+    async "^2.5.0"
+    debug "^2.6.8"
+    fs-extra "^4.0.0"
+    lodash "^4.17.4"
+    opn "^5.1.0"
+    request "^2.81.0"
+    tmp "^0.0.31"
 
 string-width@^2.0.0, string-width@^2.1.0:
   version "2.1.0"
