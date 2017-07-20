@@ -8,6 +8,6 @@ public class Startup {
     var sessionsHandle = ica.EnumerateCCMSessions();
     var sessionsCount  = ica.GetEnumNameCount(sessionsHandle);
     ica.CloseEnumHandle(sessionsHandle);
-    return (sessionsCount > 0);
+    return sessionsCount;
   }
 }
