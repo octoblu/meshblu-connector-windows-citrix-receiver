@@ -4,7 +4,7 @@ using WFICALib;
 
 public class Startup {
   public async Task<object> Invoke(dynamic ignored) {
-    System.Console.WriteLine("Invoke")
+    System.Console.WriteLine("Invoke");
     ICAClientClass ica = new ICAClientClass();
     System.Console.WriteLine("new ICAClientClass");
     var sessionsHandle = ica.EnumerateCCMSessions();
