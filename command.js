@@ -3,6 +3,7 @@
 const MeshbluHttp = require('meshblu-http')
 const OctoDash = require('octodash')
 const path = require('path')
+const packageJson = require('./package.json')
 const Connector = require('./lib/Connector')
 
 const CLI_OPTIONS = [
@@ -46,8 +47,8 @@ class Command {
     this.octoDash = new OctoDash({
       argv,
       cliOptions: CLI_OPTIONS,
-      name: this.connectorPackageJSON.name,
-      version: this.connectorPackageJSON.version,
+      name: packageJson.name,
+      version: packageJson.version,
     })
 
     const { uuid, token, domain } = this.octoDash.parseOptions()
