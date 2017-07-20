@@ -1428,9 +1428,9 @@ sshpk@^1.7.0:
     jsbn "~0.1.0"
     tweetnacl "~0.14.0"
 
-storefront-ica-generator@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/storefront-ica-generator/-/storefront-ica-generator-2.0.2.tgz#2ac895383d4f18453f7be4625c4c255cdd55d193"
+storefront-ica-generator@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/storefront-ica-generator/-/storefront-ica-generator-2.0.3.tgz#a7ac2256b0086674ab6db4fdfc063e63083a874e"
   dependencies:
     async "^2.5.0"
     debug "^2.6.8"

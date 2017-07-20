@@ -30,7 +30,7 @@ function rid(callback) {
   const options = {
     cwd: path.join(process.cwd(), 'utils'),
   }
-  exec('rid.exe ..\\node_modules\\edge\\build\\Release\\edge_nativeclr.node node.exe meshblu-connector-skype.exe', options, (error, stdout, stderr) => {
+  exec('rid.exe ..\\node_modules\\edge\\build\\Release\\edge_nativeclr.node node.exe meshblu-connector-windows-citrix-receiver.exe', options, (error, stdout, stderr) => {
     console.log({ stdout, stderr })
     if (error) return die(error)
     callback()
