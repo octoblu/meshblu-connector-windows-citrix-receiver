@@ -50,7 +50,7 @@ class Command {
       name: packageJson.name,
       version: packageJson.version,
     })
-
+    process.env.MESHBLU_CONNECTOR_CWD = process.cwd()
     const { uuid, token, domain } = this.octoDash.parseOptions()
     const meshbluHttp = new MeshbluHttp({ uuid, token, domain, resolveSrv: true })
     this.connector = new Connector({ meshbluHttp })
