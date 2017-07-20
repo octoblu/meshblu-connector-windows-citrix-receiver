@@ -1,8 +1,8 @@
-using WfIcaLib;
+using WFICALib;
 
 public class Startup {
   public async Task<object> Invoke(dynamic ignored) {
-    ICAClient ica = new ICAClient();
+    ICAClientClass ica = new ICAClientClass();
     var sessionsHandle = ica.EnumerateCCMSessions();
     var sessionsCount  = ica.GetEnumNameCount(sessionsHandle);
     ica.CloseEnumHandle(sessionsHandle);
