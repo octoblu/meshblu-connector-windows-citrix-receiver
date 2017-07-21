@@ -9,4 +9,5 @@
                      Type="integer" />
     </RegistryKey>
   </Component>
+  <ComponentRef Id="ReceiverAllowThings" />
 </Include>
