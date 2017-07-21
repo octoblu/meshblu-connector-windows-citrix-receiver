@@ -1,6 +1,6 @@
 <Include>
   <Component Id="ReceiverAllowThings" Guid="E81ED961-0C88-49AE-A0E1-2C3AF5A9A6C7" Directory="INSTALLDIR">
-    <RegistryKey Root="HKLM" Key="Software\WOW6432\Citrix\ICA Client\CCM" Action="createAndRemoveOnUninstall">
+    <RegistryKey Root="HKLM" Key="Software\Citrix\ICA Client\CCM" Action="createAndRemoveOnUninstall">
       <RegistryValue Name="AllowLiveMonitoring"
                      Value="1"
                      Type="integer" />
